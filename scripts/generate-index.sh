@@ -33,10 +33,14 @@ print_error() {
 # Function to extract meeting info from filename
 parse_filename() {
     local filename=$1
-    local date=$(echo "$filename" | grep -oP '^\d{4}-\d{2}-\d{2}')
+    # Extract date using sed (POSIX-compatible)
+    local date=$(echo "$filename" | sed -n 's/^\([0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]\).*/\1/p')
+    # Remove date and extension
     local rest=$(echo "$filename" | sed 's/^[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}_//' | sed 's/\.md$//')
+    # Extract client (everything before last underscore)
     local client=$(echo "$rest" | sed 's/_[^_]*$//')
-    local type=$(echo "$rest" | grep -oP '[^_]+$')
+    # Extract type (everything after last underscore)
+    local type=$(echo "$rest" | sed 's/.*_//')
     
     echo "$date|$client|$type"
 }

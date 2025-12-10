@@ -82,11 +82,30 @@ validate_date() {
     if [[ ! $date_string =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
         return 1
     fi
-    # Additional validation using date command
-    if ! date -d "$date_string" &>/dev/null; then
-        return 1
+    # Additional validation - check if it's a valid date
+    # Try both GNU date and BSD date formats for cross-platform compatibility
+    if date -d "$date_string" &>/dev/null 2>&1; then
+        return 0
+    elif date -j -f "%Y-%m-%d" "$date_string" &>/dev/null 2>&1; then
+        return 0
+    else
+        # Fallback: basic validation of month and day ranges
+        local year=$(echo "$date_string" | cut -d'-' -f1)
+        local month=$(echo "$date_string" | cut -d'-' -f2)
+        local day=$(echo "$date_string" | cut -d'-' -f3)
+        
+        # Remove leading zeros for comparison
+        month=$((10#$month))
+        day=$((10#$day))
+        
+        if [ $month -lt 1 ] || [ $month -gt 12 ]; then
+            return 1
+        fi
+        if [ $day -lt 1 ] || [ $day -gt 31 ]; then
+            return 1
+        fi
+        return 0
     fi
-    return 0
 }
 
 # Function to sanitize filename

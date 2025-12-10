@@ -2,7 +2,7 @@
 
 This index provides a comprehensive overview of all meeting minutes organized for easy navigation and reference.
 
-**Last Updated**: 2025-12-10 07:55:48
+**Last Updated**: 2025-12-10 08:00:24
 
 ---
 
@@ -25,11 +25,11 @@ This index provides a comprehensive overview of all meeting minutes organized fo
 
 ## By Year
 
-### 2025 (1 meetings)
+### 2024 (1 meetings)
 
 | Date | Client | Type | Document |
 |------|--------|------|----------|
-| 2024-12-10 | AcmeCorp | ProjectKickoff | [2024-12-10_AcmeCorp_ProjectKickoff.md](2025/2024-12-10_AcmeCorp_ProjectKickoff.md) |
+| 2024-12-10 | AcmeCorp | ProjectKickoff | [2024-12-10_AcmeCorp_ProjectKickoff.md](2024/2024-12-10_AcmeCorp_ProjectKickoff.md) |
 
 ---
 
@@ -39,7 +39,7 @@ This index provides a comprehensive overview of all meeting minutes organized fo
 
 | Date | Type | Document |
 |------|------|----------|
-| 2024-12-10 | ProjectKickoff | [2024-12-10_AcmeCorp_ProjectKickoff.md](2025/2024-12-10_AcmeCorp_ProjectKickoff.md) |
+| 2024-12-10 | ProjectKickoff | [2024-12-10_AcmeCorp_ProjectKickoff.md](2024/2024-12-10_AcmeCorp_ProjectKickoff.md) |
 
 ---
 
@@ -49,7 +49,7 @@ This index provides a comprehensive overview of all meeting minutes organized fo
 
 | Date | Client | Document |
 |------|--------|----------|
-| 2024-12-10 | AcmeCorp | [2024-12-10_AcmeCorp_ProjectKickoff.md](2025/2024-12-10_AcmeCorp_ProjectKickoff.md) |
+| 2024-12-10 | AcmeCorp | [2024-12-10_AcmeCorp_ProjectKickoff.md](2024/2024-12-10_AcmeCorp_ProjectKickoff.md) |
 
 ---
 

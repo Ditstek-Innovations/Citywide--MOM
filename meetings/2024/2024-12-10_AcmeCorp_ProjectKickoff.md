@@ -118,8 +118,8 @@ Kick off the new Customer Portal Enhancement project, align on project scope, ti
 ---
 
 ## Next Meeting
-- **Scheduled Date**: 2024-12-10
-- **Tentative Agenda**: [Brief overview of topics for next meeting]
+- **Scheduled Date**: 2024-12-16
+- **Tentative Agenda**: Sprint planning, review technical architecture design, finalize development environment setup
 
 ---
 
@@ -143,7 +143,7 @@ Kick off the new Customer Portal Enhancement project, align on project scope, ti
 
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
-| 1.0 | 2024-12-10 | [Name] | Initial creation |
+| 1.0 | 2024-12-10 | David Kim | Initial creation |
 
 ---
 
