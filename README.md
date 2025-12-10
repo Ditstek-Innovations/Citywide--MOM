@@ -231,7 +231,7 @@ git blame meetings/2024/2024-12-10_Client_Meeting.md
 ## 🔍 Example
 
 See a complete example at:
-- **[AcmeCorp Project Kickoff Meeting](meetings/2025/2024-12-10_AcmeCorp_ProjectKickoff.md)**
+- **[AcmeCorp Project Kickoff Meeting](meetings/2024/2024-12-10_AcmeCorp_ProjectKickoff.md)**
 
 ## 📞 Support
 

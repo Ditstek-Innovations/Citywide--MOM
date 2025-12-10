@@ -191,7 +191,7 @@ For detailed guidance on each section, see `docs/TEMPLATE_GUIDE.md`.
 
 ## Examples
 
-See `meetings/2025/2024-12-10_AcmeCorp_ProjectKickoff.md` for a complete example of a filled-out meeting minutes document.
+See `meetings/2024/2024-12-10_AcmeCorp_ProjectKickoff.md` for a complete example of a filled-out meeting minutes document.
 
 ---
 
